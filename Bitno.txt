@@ -1,0 +1,10 @@
+import os, machine, esp, gc
+
+print("=== HARDVERSKE SPECIFIKACIJE ===")
+uname = os.uname()
+print(f"Čip: {uname.machine}")
+print(f"MicroPython: {uname.version}")
+print(f"Frekvencija: {machine.freq() // 1000000} MHz")
+print(f"Flash veličina: {esp.flash_size() // 1024} KB")
+print(f"Slobodan RAM: {gc.mem_free()} bajtova")
+print("================================")
