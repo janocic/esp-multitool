@@ -10,9 +10,11 @@ A MicroPython-based project for ESP microcontrollers featuring network tools and
 
 ## Images
 
-<!-- Place your images in the "Slike" folder and link them below -->
-![Image 1 placeholder](Slike/image1.jpg)
-![Image 2 placeholder](Slike/image2.jpg)
+![Image 2 placeholder](Slike/loading_screen.jpeg)
+![Image 1 placeholder](Slike/meni_screen.jpeg)
+
+![Image 2 placeholder](Slike/evil_twin.jpeg)
+![Image 2 placeholder](Slike/evil_portal.jpeg)
 
 ## Requirements
 * ESP microcontroller (e.g. ESP32)
